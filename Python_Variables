@@ -1,0 +1,23 @@
+#PYTHON VARIABLES(store values)
+
+age=10                               #1:Integer variable
+salary=20000.5                       #2:Floating-point variable
+name="Hamza"                         #3:String variable
+is_even=True                         #4:Boolean variable
+fruits=["apple", "banana", "cherry"] #5:List Variables
+marks=(3,4,5)                        #6:Tuple variable
+person={'name':'nuzhat', 'age':24}   #7:Dictionary Variable
+data=None                            #8:None variable, indicates absence of value
+
+x=10                                 #9:Vriables with expressions
+y=20                                 
+z=x+y                                #z is assigned the value of expression x+y  
+
+name=input("Enter your name:")       #10:Variables with input
+
+def multiply(a,b):                   #11:Variables with functions
+    return a*b
+result=multiply(10,13)
+print(result) 
+
+num=range(1,30)                      #12:Range variables
